@@ -73,9 +73,21 @@ a:visited, a:visited, a:focus {
 	color:#fff;
 }
 /*Секция с портфолио*/
+.row {
+	margin:auto auto 6rem auto;
+}
 .portfolio {
 	padding: 10rem 0;
 	text-align: center;
+}
+.about-block {
+	margin-left:10rem;
+	margin-right:10rem;
+	text-align: left;
+}
+.about-block h2 {
+	color: #b2b9be;
+	font-size: 1.6rem;	
 }
 .section-header {
 	text-transform: uppercase;
@@ -197,8 +209,16 @@ a:visited, a:visited, a:focus {
 		width: 17rem;
 	}
 	.portfolio-block img {
-		max-width: 65%;
+		max-width: 65%;		
 	}
+	.about-block {
+		text-align: center;
+	}
+	.about-block h2 {
+		font-size: 1.8rem;	
+}
+
+
 
 }
 @media (min-width: 767px) and (max-width:991px) {
@@ -220,4 +240,6 @@ a:visited, a:visited, a:focus {
 		position: relative;
 		top:-7%;
 	}
+
+
 }
