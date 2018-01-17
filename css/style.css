@@ -77,9 +77,17 @@ a:visited, a:visited, a:focus {
 	margin:auto auto 6rem auto;
 }
 .portfolio {
-	padding: 10rem 0;
+	padding-top:0;
 	text-align: center;
 }
+.about-main-block {
+	padding-top:10rem;
+	padding-bottom: 10rem;
+}
+#grey {	
+	background-color: #F5F5F5;	
+}
+
 .about-block {
 	margin-left:10rem;
 	margin-right:10rem;
@@ -87,7 +95,8 @@ a:visited, a:visited, a:focus {
 }
 .about-block h2 {
 	color: #b2b9be;
-	font-size: 1.6rem;	
+	font-size: 1.6rem;
+	margin:auto 0 auto 0;	
 }
 .section-header {
 	text-transform: uppercase;
@@ -214,14 +223,14 @@ a:visited, a:visited, a:focus {
 	.about-block {
 		text-align: center;
 	}
-	.about-block h2 {
-		font-size: 1.8rem;	
+	.about-block h2 {		
+		font-size: 1.8rem;				
 }
 
 
 
 }
-@media (min-width: 767px) and (max-width:991px) {
+@media (min-width: 767px) and (max-width:991px) {	
 	html {
 		font-size: 9px;
 	}
